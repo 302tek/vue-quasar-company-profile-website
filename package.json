@@ -11,14 +11,22 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.0.0",
-    "axios": "^0.21.1",
-    "quasar": "^1.0.0",
-    "vue-i18n": "^8.0.0"
+    "@quasar/extras": "^1.14.0",
+    "axios": "^0.27.2",
+    "quasar": "^2.7.1",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.0.0"
   },
   "devDependencies": {
-    "@quasar/app": "^1.0.0",
-    "@quasar/quasar-app-extension-qflashcard": "^1.0.1"
+    "@quasar/app-webpack": "^3.5.3",
+    "@types/webpack-env": "^1.18.0",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.4.0"
   },
   "engines": {
     "node": ">= 10.18.1",

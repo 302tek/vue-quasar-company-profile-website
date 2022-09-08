@@ -1,0 +1,22 @@
+{
+  "extends": "@quasar/app-webpack/tsconfig-preset",
+  "noImplicitAny": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "test/cypress",
+    "test",
+    "/dist",
+    ".quasar",
+    "src/**/*.jest.spec.ts",
+    "node_modules"
+  ],
+  "vueCompilerOptions": {
+    "experimentalSuppressInvalidJsxElementTypeErrors": true
+  }
+}
